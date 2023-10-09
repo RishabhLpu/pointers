@@ -10,5 +10,6 @@ int main()
   cout<<"Address of a="<<p;
   *p=88;
   cout<<"\nvalue of a ="<<b<<endl;
+return 0;
   
 }
