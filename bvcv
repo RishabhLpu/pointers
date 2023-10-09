@@ -1,0 +1,10 @@
+//write a program to change the value of constant using pointer.
+#include<iostream>
+using namespace std;
+int main()
+{
+ const int a=11;
+  *(int*)&a=13;
+  cout<<a;
+  return 0;
+}
